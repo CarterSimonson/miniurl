@@ -1,6 +1,6 @@
 # Mini URL Shortener
 ## Demo
-A live version of the application can be found [here](https://cartercodes.com).
+A live version of the application can be found at https://shorten.minidev.io.
 
 ![demo](https://user-images.githubusercontent.com/31598368/175831578-9e53ed36-dd8c-4769-b2fb-d9ff94d0534f.gif)
 
