@@ -1,10 +1,11 @@
 from flask import Flask, abort, render_template, request, redirect
 from db import get_shortened, add_shortened
 from utils import get_available_key, is_valid_url
+import os
 
 app = Flask(__name__)
 
-baseURL = app.config.get('BASE_URL') or "http://localhost:8080/"
+baseURL = os.getenv('BASE_URL') or "http://localhost:8080/"
 
 # Home page
 @app.route("/", methods=["GET"])
