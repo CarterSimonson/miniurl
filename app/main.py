@@ -4,7 +4,7 @@ from utils import get_available_key, is_valid_url
 
 app = Flask(__name__)
 
-baseURL = app.config.get('BASE_URL') or "http://localhost:5000/"
+baseURL = app.config.get('BASE_URL') or "http://localhost:8080/"
 
 # Home page
 @app.route("/", methods=["GET"])

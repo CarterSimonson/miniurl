@@ -3,7 +3,7 @@ import sqlite3
 # SQLite datatypes:
 # NULL, INTEGER, REAL, TEXT, BLOB
 
-DB_PATH = 'miniurl.sqlite'
+DB_PATH = '/etc/url-db/miniurl.sqlite'
 
 def setup():
   con = sqlite3.connect(DB_PATH)
