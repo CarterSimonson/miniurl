@@ -27,7 +27,7 @@ From there, we're ready to start the server in development mode. From the root d
 > flask run
 ```
 
-Open your browser and navigate to http://localhost:5000. You should see the app's home page :)
+Open your browser and navigate to http://localhost:8080. You should see the app's home page :)
 
 Configuration notes:
 - The `BASE_URL` environment variable can be configured by adding a `.env` file to the root of the directory. The default value is `http://localhost:5000/`.
